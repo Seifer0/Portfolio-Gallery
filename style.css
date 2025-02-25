@@ -221,16 +221,7 @@ header.shadow #search-icon {
   transition: 0.5s;
 }
 
-.abm-container .box h2 {
-  position: absolute;
-  bottom: 1rem;
-  left: 1rem;
-  font-weight: 400;
-  font-size: 1rem;
-  background: var(--bg-color);
-  padding: 8px;
-  border-radius: 0.5rem;
-}
+
 
 .abm-container .box:hover h2{
   background: var(--main-color);
@@ -261,13 +252,13 @@ header.shadow #search-icon {
 .about-text h2 {
   font-size: 1.4rem;
   font-weight: 300;
-  text-justify: auto;
+  text-justify: inter-word;
 }
 
 .about-text p {
   font-size: 0.938rem;
   margin: 0.5rem 0 1.4rem;
-  text-justify: auto;
+  text-justify: inter-word;
 }
 
 .parts-container {
